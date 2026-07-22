@@ -1,0 +1,37 @@
+fruits = ['Apple','Mango','Banana','Banana','Mango','Grapes','Banana']
+print(fruits[0])
+print(fruits[len(fruits)-1])
+fruits[0] = 'PineApple'
+print(fruits)
+print(fruits[-1])
+print(fruits[1:3])
+print(fruits[-3:-1])
+fruits.append('Litchi')
+print(fruits)
+fruits.insert(1,'Coconut')
+print(fruits)
+a = [1,2]
+b = [3,4]
+a.extend(b)
+print(a)
+fruits.remove('Banana')
+fruits.pop(0)
+print(fruits)
+# fruits.clear()
+print(fruits)
+print(fruits.index('Mango'))
+print(fruits.count('Banana'))
+name = ['Shikha','Saurabh','Anjali','Peeyush']
+name.sort()
+print(name)
+name.sort(reverse=True)
+print(name)
+nums = [5,2,3,45,21,15]
+nums.sort()
+print(nums)
+nums.sort(reverse=True)
+print(nums)
+fruits.reverse()
+print(fruits)
+nums.reverse()
+print(nums)
