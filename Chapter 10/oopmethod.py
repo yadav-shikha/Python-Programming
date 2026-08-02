@@ -1,0 +1,6 @@
+class Student:
+    school = 'abc school'
+    @classmethod
+    def show_school(cls):
+        print(cls.school)
+Student.show_school()        
