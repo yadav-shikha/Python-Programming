@@ -40,6 +40,13 @@ def pen_down():
 
 # 14. Mouse Click Event 🖱️
 screen.onkey(pen_up,'u')
-screen.onkey(pen_down,'d')      
+screen.onkey(pen_down,'d')  
+
+
+def click(x, y):
+    pen.goto(x, y)
+
+turtle.onscreenclick(click)
+
 screen.listen()
 turtle.done()
