@@ -43,10 +43,10 @@ screen.onkey(pen_up,'u')
 screen.onkey(pen_down,'d')  
 
 
-def click(x, y):
-    pen.goto(x, y)
+# def click(x, y):
+#     pen.goto(x, y)
 
-turtle.onscreenclick(click)
+# turtle.onscreenclick(click)
 
 screen.listen()
 turtle.done()
