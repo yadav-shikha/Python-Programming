@@ -16,10 +16,15 @@ pen = turtle.Turtle()
 
 
 # Q3 ⭐ Turtle ko continuously square draw karvao.
+side = 0
 def square():
-    for i in range(4):
+    global side
+
+    if side < 4:
         pen.forward(100)
         pen.right(90)
-    turtle.ontimer(square,1000)   
+        side += 1
+
+        turtle.ontimer(square, 1000)
 square() 
 turtle.done()
